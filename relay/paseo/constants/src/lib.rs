@@ -173,6 +173,7 @@ pub mod proxy {
 		codec::Decode,
 		core::fmt::Debug,
 		codec::MaxEncodedLen,
+		codec::DecodeWithMemTracking,
 		scale_info::TypeInfo,
 		Default,
 	)]

@@ -6,12 +6,12 @@ repository = "https://github.com/paseo-network/runtimes.git"
 license = "GPL-3.0-only"                                        # TO-old-DO <https://github.com/paseo-fellows/runtimes/issues/29>
 
 [workspace.dependencies]
-kusama-runtime-constants = { git = "https://github.com/polkadot-fellows/runtimes", tag = "v1.4.3", package = "kusama-runtime-constants", default-features = false  }
-bp-bridge-hub-kusama = { git = "https://github.com/polkadot-fellows/runtimes", tag = "v1.4.3", package = "bp-bridge-hub-kusama", default-features = false  }
-bp-bridge-hub-polkadot = { git = "https://github.com/polkadot-fellows/runtimes", tag = "v1.4.3", package = "bp-bridge-hub-polkadot", default-features = false  }
-bp-asset-hub-kusama = { git = "https://github.com/polkadot-fellows/runtimes", tag = "v1.4.3", package = "bp-asset-hub-kusama", default-features = false  }
-collectives-polkadot-runtime-constants = { git = "https://github.com/polkadot-fellows/runtimes", tag = "v1.4.3", package = "collectives-polkadot-runtime-constants", default-features = false  }
-pallet-remote-proxy = {  git = "https://github.com/polkadot-fellows/runtimes", tag = "v1.4.3", package = "pallet-remote-proxy", default-features = false   }
+kusama-runtime-constants = { git = "https://github.com/polkadot-fellows/runtimes", rev = "c5e132b67b6068f9002aa4acff32e5fcab4cabfa", package = "kusama-runtime-constants", default-features = false  }
+bp-bridge-hub-kusama = { git = "https://github.com/polkadot-fellows/runtimes", rev = "c5e132b67b6068f9002aa4acff32e5fcab4cabfa", package = "bp-bridge-hub-kusama", default-features = false  }
+bp-bridge-hub-polkadot = { git = "https://github.com/polkadot-fellows/runtimes", rev = "c5e132b67b6068f9002aa4acff32e5fcab4cabfa", package = "bp-bridge-hub-polkadot", default-features = false  }
+bp-asset-hub-kusama = { git = "https://github.com/polkadot-fellows/runtimes", rev = "c5e132b67b6068f9002aa4acff32e5fcab4cabfa", package = "bp-asset-hub-kusama", default-features = false  }
+collectives-polkadot-runtime-constants = { git = "https://github.com/polkadot-fellows/runtimes", rev = "c5e132b67b6068f9002aa4acff32e5fcab4cabfa", package = "collectives-polkadot-runtime-constants", default-features = false  }
+pallet-remote-proxy = {  git = "https://github.com/polkadot-fellows/runtimes", rev = "c5e132b67b6068f9002aa4acff32e5fcab4cabfa", package = "pallet-remote-proxy", default-features = false   }
 
 
 # Local dependencies
