@@ -36,7 +36,9 @@ use asset_test_utils::{
 use codec::{Decode, Encode};
 use core::ops::Mul;
 use frame_support::{assert_ok, traits::fungibles::InspectEnumerable};
-use parachains_common::{AccountId, AssetIdForTrustBackedAssets, AuraId, Balance};
+use parachains_common::{
+	AccountId, AuraId, AssetIdForTrustBackedAssets, Balance,
+};
 use sp_consensus_aura::SlotDuration;
 use sp_core::crypto::Ss58Codec;
 use sp_runtime::traits::MaybeEquivalence;
@@ -469,7 +471,7 @@ fn receive_reserve_asset_deposited_ksm_from_asset_hub_kusama_fees_paid_by_pool_s
                 bridging_to_asset_hub_kusama()
             },
             (
-                [PalletInstance(bp_bridge_hub_polkadot::WITH_BRIDGE_POLKADOT_TO_KUSAMA_MESSAGES_PALLET_INDEX)].into(),
+                [PalletInstance(bp_bridge_hub_paseo::WITH_BRIDGE_POLKADOT_TO_KUSAMA_MESSAGES_PALLET_INDEX)].into(),
                 GlobalConsensus(Kusama),
                 [Parachain(1000)].into()
             ),
