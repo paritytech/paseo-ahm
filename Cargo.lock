@@ -921,7 +921,7 @@ dependencies = [
  "staging-xcm-builder",
  "staging-xcm-executor",
  "substrate-wasm-builder",
- "system-parachains-common 1.0.0",
+ "system-parachains-common",
  "system-parachains-constants 1.0.0",
  "xcm-runtime-apis",
 ]
@@ -6808,7 +6808,7 @@ dependencies = [
  "staging-xcm 16.2.0",
  "staging-xcm-builder",
  "staging-xcm-executor",
- "system-parachains-common 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b)",
+ "system-parachains-common",
 ]
 
 [[package]]
@@ -12746,24 +12746,6 @@ checksum = "8e1d1b10ced5ca923a1fcb8d03e96b8d3268065d724548c0211415ff6ac6bac4"
 dependencies = [
  "core-foundation-sys",
  "libc",
-]
-
-[[package]]
-name = "system-parachains-common"
-version = "1.0.0"
-dependencies = [
- "frame-support",
- "pallet-ah-migrator",
- "pallet-treasury",
- "parity-scale-codec",
- "polkadot-runtime-common",
- "scale-info",
- "sp-api",
- "sp-core",
- "sp-runtime",
- "sp-std 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=oty-2503-paseo)",
- "staging-xcm 16.2.0",
- "staging-xcm-executor",
 ]
 
 [[package]]

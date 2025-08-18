@@ -229,7 +229,7 @@ sp-version = { git = "https://github.com/paritytech/polkadot-sdk", branch = "oty
 sp-weights = { git = "https://github.com/paritytech/polkadot-sdk", branch = "oty-2503-paseo", default-features = false }
 substrate-wasm-builder = { git = "https://github.com/paritytech/polkadot-sdk", branch = "oty-2503-paseo", default-features = false }
 system-parachains-constants = { path = "system-parachains/constants", default-features = false }
-system-parachains-common = { path = "system-parachains/common", default-features = false }
+system-parachains-common = { git = "https://github.com/polkadot-fellows/runtimes", rev = "18162b5cd454a96c4876c379eff345f8e8581e7b", default-features = false }
 tokio = { version = "1.36.0" }
 xcm = { git = "https://github.com/paritytech/polkadot-sdk", branch = "oty-2503-paseo", default-features = false, package = "staging-xcm" }
 xcm-builder = { git = "https://github.com/paritytech/polkadot-sdk", branch = "oty-2503-paseo", default-features = false, package = "staging-xcm-builder" }
@@ -269,7 +269,6 @@ members = [
 	"system-parachains/bridge-hub-paseo/primitives",
 	"system-parachains/collectives-paseo",
 	"system-parachains/collectives-paseo/constants",
-	"system-parachains/common",
 	"system-parachains/constants",
 	"system-parachains/coretime-paseo",
 	"system-parachains/people-paseo",

@@ -175,7 +175,7 @@ pub const VERSION: RuntimeVersion = RuntimeVersion {
 	impl_name: Cow::Borrowed("asset-hub-paseo"),
 	spec_name: Cow::Borrowed("asset-hub-paseo"),
 	authoring_version: 1,
-	spec_version: 1_007_000,
+	spec_version: 1_006_001,
 	impl_version: 0,
 	apis: RUNTIME_API_VERSIONS,
 	transaction_version: 15,
@@ -1190,7 +1190,6 @@ impl pallet_ah_migrator::Config for Runtime {
 	type AhWeightInfo = weights::pallet_ah_migrator::WeightInfo<Runtime>;
 	type TreasuryAccounts = ah_migration::TreasuryAccounts;
 	type RcToAhTreasurySpend = ah_migration::RcToAhTreasurySpend;
-	type AhPreMigrationCalls = ah_migration::call_filter::CallsEnabledBeforeMigration;
 	type AhIntraMigrationCalls = ah_migration::call_filter::CallsEnabledDuringMigration;
 	type AhPostMigrationCalls = ah_migration::call_filter::CallsEnabledAfterMigration;
 	type MessageQueue = MessageQueue;
