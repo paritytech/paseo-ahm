@@ -1299,7 +1299,7 @@ dependencies = [
 [[package]]
 name = "bp-asset-hub-kusama"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "bp-xcm-bridge-hub-router",
  "frame-support",
@@ -1307,7 +1307,7 @@ dependencies = [
  "scale-info",
  "sp-core",
  "staging-xcm 16.2.0",
- "system-parachains-constants 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b)",
+ "system-parachains-constants 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300)",
 ]
 
 [[package]]
@@ -1341,7 +1341,7 @@ dependencies = [
 [[package]]
 name = "bp-bridge-hub-kusama"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "bp-bridge-hub-cumulus",
  "bp-header-chain",
@@ -1354,7 +1354,7 @@ dependencies = [
  "sp-api",
  "sp-runtime",
  "sp-std 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=oty-2503-paseo)",
- "system-parachains-constants 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b)",
+ "system-parachains-constants 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300)",
 ]
 
 [[package]]
@@ -1380,7 +1380,7 @@ dependencies = [
 [[package]]
 name = "bp-bridge-hub-polkadot"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "bp-bridge-hub-cumulus",
  "bp-header-chain",
@@ -1395,7 +1395,7 @@ dependencies = [
  "sp-runtime",
  "sp-std 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=oty-2503-paseo)",
  "staging-xcm 16.2.0",
- "system-parachains-constants 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b)",
+ "system-parachains-constants 1.0.0 (git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300)",
 ]
 
 [[package]]
@@ -2221,7 +2221,7 @@ version = "1.0.0"
 [[package]]
 name = "collectives-polkadot-runtime-constants"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 
 [[package]]
 name = "colorchoice"
@@ -5393,7 +5393,7 @@ checksum = "c33070833c9ee02266356de0c43f723152bd38bd96ddf52c82b3af10c9138b28"
 [[package]]
 name = "kusama-runtime-constants"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "frame-support",
  "pallet-remote-proxy",
@@ -6755,7 +6755,7 @@ checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 [[package]]
 name = "pallet-ah-migrator"
 version = "0.1.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "assets-common",
  "collectives-polkadot-runtime-constants",
@@ -6791,6 +6791,7 @@ dependencies = [
  "pallet-timestamp",
  "pallet-treasury",
  "pallet-vesting",
+ "pallet-xcm",
  "parachains-common",
  "parity-scale-codec",
  "polkadot-parachain-primitives",
@@ -6814,7 +6815,7 @@ dependencies = [
 [[package]]
 name = "pallet-ah-ops"
 version = "0.1.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "cumulus-primitives-core",
  "frame-benchmarking",
@@ -7664,7 +7665,7 @@ dependencies = [
 [[package]]
 name = "pallet-rc-migrator"
 version = "0.1.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "frame-benchmarking",
  "frame-election-provider-support",
@@ -7735,7 +7736,7 @@ dependencies = [
 [[package]]
 name = "pallet-remote-proxy"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "cumulus-pallet-parachain-system",
  "cumulus-primitives-core",
@@ -8970,7 +8971,7 @@ dependencies = [
 [[package]]
 name = "polkadot-runtime-constants"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "frame-support",
  "pallet-remote-proxy",
@@ -12751,7 +12752,7 @@ dependencies = [
 [[package]]
 name = "system-parachains-common"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "frame-support",
  "pallet-treasury",
@@ -12784,7 +12785,7 @@ dependencies = [
 [[package]]
 name = "system-parachains-constants"
 version = "1.0.0"
-source = "git+https://github.com/polkadot-fellows/runtimes?rev=18162b5cd454a96c4876c379eff345f8e8581e7b#18162b5cd454a96c4876c379eff345f8e8581e7b"
+source = "git+https://github.com/polkadot-fellows/runtimes?rev=da6470680833349e2a4d542fba4358c8f0f17300#da6470680833349e2a4d542fba4358c8f0f17300"
 dependencies = [
  "frame-support",
  "kusama-runtime-constants",
